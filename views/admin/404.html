@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>
+        <%=tip %>
+    </h2>
+    <div>
+        <p><span id="sec">3</span>秒之后自动跳转，如果不想等待请单击<a href="<%=url %>">这里</a></p>
+    </div>
+    <script>
+        let cursec = document.getElementById('sec').innerHTML;
+
+
+        setInterval(() => {
+            --cursec;
+            document.getElementById('sec').innerHTML = cursec;
+            if (cursec == 0) {
+                location.href = '<%=url%>';
+            }
+        }, 1000)
+    </script>
+</body>
+
+</html>

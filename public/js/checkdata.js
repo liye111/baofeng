@@ -1,0 +1,5 @@
+$(function() {
+    $("#usr").blur(function() {
+
+    })
+})

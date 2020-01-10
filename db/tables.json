@@ -1,0 +1,77 @@
+{
+    "hot-movie": {
+        "img": "String",
+        "vip": "String",
+        "definition": "String",
+        "title": {
+            "type": "String",
+            "unique": true
+        },
+        "detail": "String",
+        "score": "String"
+    },
+    "removie": {
+        "img": "String",
+        "vip": "String",
+        "definition": "String",
+        "title": {
+            "type": "String",
+            "unique": true
+        },
+        "detail": "String",
+        "score": "String"
+    },
+    "updmovie": {
+        "img": "String",
+        "vip": "String",
+        "definition": "String",
+        "title": {
+            "type": "String",
+            "unique": true
+        },
+        "detail": "String",
+        "score": "String"
+    },
+    "likemovie": {
+        "img": "String",
+        "vip": "String",
+        "definition": "String",
+        "title": {
+            "type": "String",
+            "unique": true
+        },
+        "detail": "String",
+        "score": "String"
+    },
+    "gussmovie": {
+        "img": "String",
+        "title": "String",
+        "details": "String",
+        "score": "String",
+        "total": "String"
+    },
+    "hot": {
+        "img": "String",
+        "title": "String",
+        "details": "String",
+        "score": "String",
+        "total": "String"
+    },
+    "user": {
+        "usr": {
+            "type": "String",
+            "unique": true
+        },
+        "pwd":"String"
+    },
+    "adminuser":{
+        "uname": {
+            "type": "String",
+            "unique": true
+        },
+        "pwd":"String",
+        "email":"String"
+    }
+  
+    
+}

@@ -1,0 +1,23 @@
+{
+  "name": "baofeng0908",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "cookie-session": "^1.3.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "formidable": "^1.2.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.7.12",
+    "morgan": "~1.9.1",
+    "svg-captcha": "^1.4.0",
+    "uuid": "^3.3.3"
+  }
+}
